@@ -17,7 +17,7 @@ jobs:
           timezoneLinux: "Asia/Tokyo"
 
       - name: apt update
-        run: apt update
+        run: audo apt update
 
       - name: npm cache clear
         run: npm cache clean --force
