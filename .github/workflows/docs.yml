@@ -44,6 +44,9 @@ jobs:
           #   cache: pnpm
           cache: npm
 
+      - name: install packages
+        run: npm install
+
       # run build script
       - name: Build VuePress site
         run: npm run docs:build
