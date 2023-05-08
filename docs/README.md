@@ -34,7 +34,7 @@ heroImage: /images/ikaskey-banner.png
 
 <Badge type="tip" text="New" vertical="middle" /> [2023/05/02 のサービスダウンにおける補填について](/maintenance/20230503-server_down.html)
 
-\> [メンテナンス情報一覧](/mainenance/)
+\> [メンテナンス情報一覧](/maintenance/)
 
 ---
 
