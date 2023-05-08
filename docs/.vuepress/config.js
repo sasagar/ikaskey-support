@@ -8,6 +8,7 @@ export default defineUserConfig({
     theme: defaultTheme({
         smoothScroll: true,
         logo: '/images/ikaskey-icon.png',
+        contributors: false,
         navbar: [
             { text: 'Home', link: '/' },
             {
