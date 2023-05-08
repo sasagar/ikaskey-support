@@ -12,6 +12,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: szenius/set-timezone@v1.0
+        with:
+          timezoneLinux: "Asia/Tokyo"
+
+      - name: apt update
+        run: apt update
+
       - name: npm cache clear
         run: npm cache clean --force
 
