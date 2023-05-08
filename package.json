@@ -1,0 +1,24 @@
+{
+  "name": "ikaskey-support",
+  "version": "1.0.0",
+  "description": "いかすきーサポート用のVuePressです。",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasagar/ikaskey-support.git"
+  },
+  "author": "@sasagar",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sasagar/ikaskey-support/issues"
+  },
+  "homepage": "https://github.com/sasagar/ikaskey-support#readme",
+  "devDependencies": {
+    "pnpm": "^8.4.0",
+    "vuepress": "^2.0.0-beta.61"
+  }
+}
