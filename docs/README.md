@@ -26,6 +26,7 @@ heroImage: /images/ikaskey-banner.png
 
 ## お知らせ
 
+<Badge type="tip" text="New" vertical="middle" /> [2023/05/09 に行う予定の Misskey アップデートについて](/news/20230509-update-maintenance.html)
 <Badge type="tip" text="New" vertical="middle" /> [2023/05/15 発効予定の利用規約改訂について](/news/20230501-change_terms.html)
 
 \> [お知らせ一覧](/news/)
