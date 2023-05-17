@@ -24,6 +24,12 @@ heroImage: /images/ikaskey-banner.png
 
 ---
 
+## いかすきーについて
+
+いかすきーについては、以下のページでご案内しています。
+
+[お知らせ一覧](/about.html)
+
 ## お知らせ
 
 - <Badge type="tip" text="完了" vertical="middle" /> [2023/05/09 に行う予定の Misskey アップデートについて](/maintenance/20230509-update_maintenance.html)
