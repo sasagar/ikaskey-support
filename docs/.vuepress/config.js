@@ -15,6 +15,7 @@ export default defineUserConfig({
         navbar: [
             { text: 'Home', link: '/' },
             { text: 'サポーター', link: '/supporter.html' },
+            { text: 'ガイドライン', link: '/guideline.html' },
             { text: 'おしらせ', link: '/news/' },
             { text: 'メンテナンス', link: '/maintenance/' },
             {
