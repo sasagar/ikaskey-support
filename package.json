@@ -5,7 +5,14 @@
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "docs:serve": "http-server -a localhost docs/.vuepress/dist -o",
+    "docs:vite-build": "vuepress-vite build docs",
+    "docs:vite-clean-dev": "vuepress-vite dev docs --clean-cache",
+    "docs:vite-dev": "vuepress-vite dev docs",
+    "docs:webpack-build": "vuepress-webpack build docs",
+    "docs:webpack-clean-dev": "vuepress-webpack dev docs --clean-cache",
+    "docs:webpack-dev": "vuepress-webpack dev docs"
   },
   "repository": {
     "type": "git",
@@ -18,7 +25,17 @@
   },
   "homepage": "https://github.com/sasagar/ikaskey-support#readme",
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^2.0.0-beta.61",
-    "vuepress": "^2.0.0-beta.61"
+    "@vuepress/cli": "2.0.0-beta.62",
+    "@vuepress/client": "2.0.0-beta.62",
+    "@vuepress/core": "2.0.0-beta.62",
+    "@vuepress/theme-default": "2.0.0-beta.62",
+    "@vuepress/utils": "2.0.0-beta.62",
+    "sass-loader": "13.3.1",
+    "vue": "3.3.4",
+    "vue-router": "4.2.2",
+    "vuepress": "^2.0.0-beta.62",
+    "vuepress-plugin-blog2": "2.0.0-beta.221",
+    "vuepress-vite": "2.0.0-beta.62",
+    "vuepress-webpack": "2.0.0-beta.62"
   }
 }
