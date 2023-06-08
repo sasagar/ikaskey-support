@@ -8,6 +8,9 @@ category:
     - メンテナンス
 tag:
     - アップデート
+planneddate: 2023-05-09
+status: 完了
+statclass: tip
 ---
 
 # 2023/05/09 に行う予定の Misskey アップデートについて

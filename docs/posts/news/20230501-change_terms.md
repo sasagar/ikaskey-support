@@ -8,6 +8,8 @@ category:
     - おしらせ
 tag:
     - 規約改定
+status: 施行済
+statclass: tip
 ---
 
 # 規約改定について

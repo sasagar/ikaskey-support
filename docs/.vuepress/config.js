@@ -50,6 +50,9 @@ export default defineUserConfig({
                     typeof frontmatter["excerpt"] === "string"
                         ? frontmatter["excerpt"]
                         : data?.["excerpt"] || "",
+                status: frontmatter["status"] || null,
+                statclass: frontmatter["statclass"] || "tip",
+                planneddate: frontmatter.planneddate || null,
             }),
 
             // generate excerpt for all pages excerpt those users choose to disable
@@ -125,6 +128,24 @@ export default defineUserConfig({
                     path: "/timeline/",
                     layout: "Timeline",
                     frontmatter: () => ({ title: "Timeline", sidebar: false }),
+                },
+                {
+                    key: "category-news",
+                    filter: (page) => {
+                        return page.frontmatter["category"].includes('おしらせ');
+                    },
+                    sorter: (pageA, pageB) =>
+                        new Date(pageB.frontmatter.date).getTime() -
+                        new Date(pageA.frontmatter.date).getTime(),
+                },
+                {
+                    key: "category-maintenance",
+                    filter: (page) => {
+                        return page.frontmatter["category"].includes('メンテナンス');
+                    },
+                    sorter: (pageA, pageB) =>
+                        new Date(pageB.frontmatter.date).getTime() -
+                        new Date(pageA.frontmatter.date).getTime(),
                 },
             ],
             hotReload: true,
