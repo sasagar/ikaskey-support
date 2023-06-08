@@ -29,6 +29,8 @@ defineProps({
         background-color: var(--c-border);
         color: var(--c-bg);
         font-weight: bold;
+        transition: .3s;
+        text-decoration: none;
         &:hover {
             background-color: var(--c-text-light);
         }
