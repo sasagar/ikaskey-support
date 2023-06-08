@@ -469,7 +469,7 @@
   resolved "https://registry.npmjs.org/@vue/shared/-/shared-3.3.4.tgz"
   integrity sha512-7OjdcV8vQ74eiz1TZLzZP4JwqM5fA94K6yntPS5Z25r9HDuGNzaGdgvwKYq6S+MxwF0TFRwe50fIR/MYnakdkQ==
 
-"@vuepress/bundler-vite@2.0.0-beta.62":
+"@vuepress/bundler-vite@^2.0.0-beta.62", "@vuepress/bundler-vite@2.0.0-beta.62":
   version "2.0.0-beta.62"
   resolved "https://registry.npmjs.org/@vuepress/bundler-vite/-/bundler-vite-2.0.0-beta.62.tgz"
   integrity sha512-Dpb4rJycssM1gs3MlQ5z0cwQ0KCx9Iliojt+qs5lVIUHP9vfw6ANYx51R3ojctt3dCoWfC4bAL4NhGQndGKvrQ==
@@ -488,7 +488,7 @@
     vue "^3.3.1"
     vue-router "^4.2.0"
 
-"@vuepress/bundler-webpack@2.0.0-beta.62":
+"@vuepress/bundler-webpack@^2.0.0-beta.62", "@vuepress/bundler-webpack@2.0.0-beta.62":
   version "2.0.0-beta.62"
   resolved "https://registry.npmjs.org/@vuepress/bundler-webpack/-/bundler-webpack-2.0.0-beta.62.tgz"
   integrity sha512-uDyDsWhoU9i1X4Hcy49T2uM4qb85WkXoy+lz/E2lisOuwXF5JN/5Ny40hIMIXU/FjOmTsDgykQLCWM9dsuGcxw==
@@ -532,7 +532,7 @@
     envinfo "^7.8.1"
     esbuild "~0.17.18"
 
-"@vuepress/client@2.0.0-beta.62":
+"@vuepress/client@^2.0.0-beta.62", "@vuepress/client@2.0.0-beta.62":
   version "2.0.0-beta.62"
   resolved "https://registry.npmjs.org/@vuepress/client/-/client-2.0.0-beta.62.tgz"
   integrity sha512-5JT0H6EibhZMVmg1fel2BWFFaAEv5zOoD397LOiMQmcEuUneeKNSwGcLrJDyvv8AOXz4wsXwET/to3TsOFoHDQ==
@@ -587,7 +587,7 @@
     vue "^3.3.1"
     vue-router "^4.2.0"
 
-"@vuepress/plugin-back-to-top@2.0.0-beta.62":
+"@vuepress/plugin-back-to-top@^2.0.0-beta.62", "@vuepress/plugin-back-to-top@2.0.0-beta.62":
   version "2.0.0-beta.62"
   resolved "https://registry.npmjs.org/@vuepress/plugin-back-to-top/-/plugin-back-to-top-2.0.0-beta.62.tgz"
   integrity sha512-ndStdKobpq7/YxhtUg2YrSkd8FNoE0v4pPVdTBND6jlkPns4CCcyu+w6BZ8mkiiB2dzS27JrhKcXHz1Tsb0nUA==
@@ -1438,12 +1438,7 @@ css-tree@~2.2.0:
     mdn-data "2.0.28"
     source-map-js "^1.0.1"
 
-css-what@^6.0.1:
-  version "6.1.0"
-  resolved "https://registry.npmjs.org/css-what/-/css-what-6.1.0.tgz"
-  integrity sha512-HTUrgRJ7r4dsZKU6GjmpfRK1O76h97Z8MfS1G0FozR+oF2kG6Vfe8JE6zwrkbxigziPHinCJ+gCPjA9EaBDtRw==
-
-css-what@^6.1.0:
+css-what@^6.0.1, css-what@^6.1.0:
   version "6.1.0"
   resolved "https://registry.npmjs.org/css-what/-/css-what-6.1.0.tgz"
   integrity sha512-HTUrgRJ7r4dsZKU6GjmpfRK1O76h97Z8MfS1G0FozR+oF2kG6Vfe8JE6zwrkbxigziPHinCJ+gCPjA9EaBDtRw==
@@ -1579,12 +1574,7 @@ dom-serializer@^2.0.0:
     domhandler "^5.0.2"
     entities "^4.2.0"
 
-domelementtype@^2.0.1, domelementtype@^2.2.0:
-  version "2.3.0"
-  resolved "https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz"
-  integrity sha512-OLETBj6w0OsagBwdXnPdN0cnMfF9opN69co+7ZrbfPGrdpPVNBUj02spi6B1N7wChLQiPn4CSH/zJvXw56gmHw==
-
-domelementtype@^2.3.0:
+domelementtype@^2.0.1, domelementtype@^2.2.0, domelementtype@^2.3.0:
   version "2.3.0"
   resolved "https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz"
   integrity sha512-OLETBj6w0OsagBwdXnPdN0cnMfF9opN69co+7ZrbfPGrdpPVNBUj02spi6B1N7wChLQiPn4CSH/zJvXw56gmHw==
@@ -2036,12 +2026,7 @@ get-intrinsic@^1.0.2:
     has-proto "^1.0.1"
     has-symbols "^1.0.3"
 
-get-stream@^6.0.0:
-  version "6.0.1"
-  resolved "https://registry.npmjs.org/get-stream/-/get-stream-6.0.1.tgz"
-  integrity sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==
-
-get-stream@^6.0.1:
+get-stream@^6.0.0, get-stream@^6.0.1:
   version "6.0.1"
   resolved "https://registry.npmjs.org/get-stream/-/get-stream-6.0.1.tgz"
   integrity sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==
@@ -3341,14 +3326,7 @@ selfsigned@^2.1.1:
   dependencies:
     node-forge "^1"
 
-semver@^7.3.8:
-  version "7.5.1"
-  resolved "https://registry.npmjs.org/semver/-/semver-7.5.1.tgz"
-  integrity sha512-Wvss5ivl8TMRZXXESstBA4uR5iXgEN/VC5/sOcuXdVLzcdkz4HWetIoRfG5gb5X+ij/G9rw9YoGn3QoQ8OCSpw==
-  dependencies:
-    lru-cache "^6.0.0"
-
-semver@^7.5.1:
+semver@^7.3.8, semver@^7.5.1:
   version "7.5.1"
   resolved "https://registry.npmjs.org/semver/-/semver-7.5.1.tgz"
   integrity sha512-Wvss5ivl8TMRZXXESstBA4uR5iXgEN/VC5/sOcuXdVLzcdkz4HWetIoRfG5gb5X+ij/G9rw9YoGn3QoQ8OCSpw==
@@ -3454,17 +3432,7 @@ side-channel@^1.0.4:
     get-intrinsic "^1.0.2"
     object-inspect "^1.9.0"
 
-signal-exit@^3.0.2:
-  version "3.0.7"
-  resolved "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.7.tgz"
-  integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
-
-signal-exit@^3.0.3:
-  version "3.0.7"
-  resolved "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.7.tgz"
-  integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
-
-signal-exit@^3.0.7:
+signal-exit@^3.0.2, signal-exit@^3.0.3, signal-exit@^3.0.7:
   version "3.0.7"
   resolved "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.7.tgz"
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==

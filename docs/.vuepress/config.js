@@ -1,6 +1,7 @@
 import { defineUserConfig } from '@vuepress/cli';
 import defaultTheme from "@vuepress/theme-default";
 import { blogPlugin } from "vuepress-plugin-blog2";
+import { backToTopPlugin } from '@vuepress/plugin-back-to-top';
 
 export default defineUserConfig({
     base: '/',
@@ -31,8 +32,7 @@ export default defineUserConfig({
         ]
     }),
     plugins: [
-        // backToTopPlugin(),
-        // '@vuepress/plugin-back-to-top',
+        backToTopPlugin(),
         blogPlugin({
             // only files under posts are articles
             filter: ({ filePathRelative }) =>
