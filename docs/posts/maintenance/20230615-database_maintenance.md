@@ -9,8 +9,8 @@ category:
 tag:
     - データベース
 planneddate: 2023-06-16
-status: 予定
-statclass: warning
+status: 実施中
+statclass: dangar
 ---
 
 # 2023/06/16に行う予定のメンテナンスについて
