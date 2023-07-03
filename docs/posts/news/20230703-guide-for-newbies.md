@@ -9,8 +9,6 @@ category:
 tag:
     - Misskey
     - 使い方
-status: 施行済
-statclass: tip
 ---
 
 # FAQ
