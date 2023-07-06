@@ -210,7 +210,7 @@ Plugin:register_post_form_action(`猫化解除にゃ！` @(form, update) {
 
 いかすきーで募集をかけるときに使えるテンプレートが一気に投稿欄に入力されます。
 
-作者: [めろん](https://ikaskey.bktsk.com/@melon)
+作者: [めろん](https://ikaskey.bktsk.com/@melon)  
 協力: [あるみ](https://ikaskey.bktsk.com/@arumi_toon)
 
 ``` javascript
