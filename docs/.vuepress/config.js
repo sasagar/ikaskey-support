@@ -14,7 +14,6 @@ export default defineUserConfig({
         smoothScroll: true,
         logo: '/images/ikaskey-icon.png',
         contributors: false,
-        sidebarDepth: 5,
         navbar: [
             { text: 'Home', link: '/' },
             { text: 'サポーター', link: '/supporter.html' },
