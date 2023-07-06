@@ -1,6 +1,7 @@
 ---
 title: カスタマイズ情報
 description: Misskeyで活用できるカスタマイズ情報を紹介します。
+sidebarDepth: 5
 ---
 
 # カスタマイズ情報
