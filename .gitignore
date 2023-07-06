@@ -3,5 +3,5 @@ node_modules
 .cache
 docs/.vuepress/dist/
 .DS_Store
-package-lock.json
+# package-lock.json
 yarn.lock
