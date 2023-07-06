@@ -38,7 +38,10 @@ export default defineUserConfig({
                             { text: '変更履歴', link: '/privacy-policy/changelog.html' }
                         ]
                     },
-                    { text: 'ガイドライン', link: '/guideline.html' },
+                    {
+                        text: 'ガイドライン',
+                        children: [{ text: 'ガイドライン', link: '/guideline.html' }]
+                    },
                     {
                         text: '旧規約',
                         children: [
