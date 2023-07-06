@@ -17,9 +17,9 @@ export default defineUserConfig({
         navbar: [
             { text: 'Home', link: '/' },
             { text: 'サポーター', link: '/supporter.html' },
-            { text: 'ガイドライン', link: '/guideline.html' },
             { text: 'おしらせ', link: '/category/おしらせ/' },
             { text: 'メンテナンス', link: '/category/メンテナンス/' },
+            { text: 'カスタマイズ', link: '/customize.html' },
             {
                 text: '利用規約',
                 children: [
@@ -32,18 +32,19 @@ export default defineUserConfig({
                         ]
                     },
                     {
+                        text: 'プライバシーポリシー',
+                        children: [
+                            { text: 'プライバシーポリシー全文', link: '/privacy-policy/' },
+                            { text: '変更履歴', link: '/privacy-policy/changelog.html' }
+                        ]
+                    },
+                    { text: 'ガイドライン', link: '/guideline.html' },
+                    {
                         text: '旧規約',
                         children: [
                             { text: '利用規約全文', link: '/terms/terms_v1.html' },
                         ]
-                    }
-                ]
-            },
-            {
-                text: 'プライバシーポリシー',
-                children: [
-                    { text: 'プライバシーポリシー全文', link: '/privacy-policy/' },
-                    { text: '変更履歴', link: '/privacy-policy/changelog.html' }
+                    },
                 ]
             },
             { text: 'いかすきー', link: 'https://ikaskey.bktsk.com/', target: '_blank' },
