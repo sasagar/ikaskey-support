@@ -168,7 +168,7 @@ sidebarDepth: 5
 
 作者: [@sasapiyo](https://ikaskey.bktsk.com/@saspaiyo)
 
-```
+``` css
 /* リアクションや絵文字のサイズ変更 */
 img[title=":<絵文字のID>:"] {
   width: calc(100% - 50px);
