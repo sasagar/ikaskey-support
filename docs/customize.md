@@ -176,6 +176,18 @@ img[title=":<絵文字のID>:"] {
 }
 ```
 
+### リアクションのボタンをプラスに戻す
+
+作者: [@sasapiyo](https://ikaskey.bktsk.com/@saspaiyo)
+
+``` css
+/* リアクションボタンをプラスに戻したい */
+footer.xhAPG button.xviCy i.ti-mood-happy:before,
+footer button.xzgmm i.ti-mood-happy:before {
+  content: "\eb0b";
+}
+```
+
 ## プラグイン利用方法
 
 「設定」→クライアント設定内「プラグイン」→「プラグインをインストール」 に進み、コードを貼り付けます。  
