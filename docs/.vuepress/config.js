@@ -16,7 +16,13 @@ export default defineUserConfig({
         contributors: false,
         navbar: [
             { text: 'Home', link: '/' },
-            { text: 'サポーター', link: '/supporter.html' },
+            {
+                text: 'ユーザー向け情報',
+                children: [
+                    { text: 'サポーター', link: '/supporter.html' },
+                    { text: 'FAQ', link: '/FAQ.html' }
+                ]
+            },
             { text: 'おしらせ', link: '/category/おしらせ/' },
             { text: 'メンテナンス', link: '/category/メンテナンス/' },
             { text: 'カスタマイズ', link: '/customize.html' },
